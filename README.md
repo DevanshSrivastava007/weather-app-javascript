@@ -1,20 +1,21 @@
-Hi Everyone!
+# Real-Time Weather Application ⛅
 
-Today we're going to create a new web application with JavaScript (Vanilla JavaScript: No Framework).
+A responsive web application built with vanilla JavaScript, modern CSS, and OpenWeatherMap REST API to track real-time weather metrics by city and geolocation.
 
-In this tutorial, a JavaScript Beginner can create a functional Weather App with ease. and won't face any problems doing that.
+## 🚀 Key Features
+- **Real-Time Weather Metrics:** Fetches current temperature, weather conditions, humidity, and atmospheric descriptions.
+- **Dynamic UI State:** Updates custom weather icons and backdrops dynamically according to real-time climate conditions.
+- **Unit Conversion:** One-click toggle between Celsius and Fahrenheit.
+- **REST API Integration:** Handles asynchronous network requests using the modern `fetch()` API with robust error handling for invalid city inputs.
+- **Responsive Layout:** Clean, mobile-friendly interface built with CSS Flexbox.
 
-You must know the basics in JavaScript and HTML, like JavaScript Objects, functions, If statements, ... etc
+## 🛠 Tech Stack
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+- **API Provider:** OpenWeatherMap API
+- **Deployment:** Vercel / GitHub Pages
 
-The only difficulty you might face, is how to work with an API using JavaScript? but trust me that won't be of a big problem.
+## 💻 How to Run Locally
 
-Let's talk about the application you're going to build; our weather app will show the weather information that it will get from the API like this, an Icon that shows the weather status, the temperature value (18°C) in Celsius unit, the weather description (clear sky), and then the user's city and country (London, GB).
-
-When the user clicks on the temperature value, that will convert it from Celsius to Fahrenheit.
-
-The icons we're going to use for our web application are created by the Graphic Designer Ashley Jager.
-Link to her Repo: https://github.com/manifestinteractive/weather-underground-icons
-
-The API provider is http://www.OpenWeatherMap.org
-
-To Create this web application please follow the tutorial on my channel:https://youtu.be/KqZGuzrY9D4
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/DevanshSrivastava007/weather-app-javascript.git](https://github.com/DevanshSrivastava007/weather-app-javascript.git)
