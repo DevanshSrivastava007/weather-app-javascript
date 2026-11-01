@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Weather App - JavaScript</title>
+    <title>Advanced Weather App - JavaScript</title>
     <link rel="stylesheet" href="font/Rimouski.css">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+</head><body>  
     <div class="container">
         <div class="app-title">
-            <p>Weather</p>
+            <p>Advanced Weather</p>
         </div>
+        
+        <div class="search-area">
+            <input type="text" id="city-input" placeholder="Enter City Name...">
+            <button id="search-btn">Search</button>
+        </div>
+        
         <div class="notification"> </div>
         <div class="weather-container">
             <div class="weather-icon">
@@ -23,14 +27,28 @@
             <div class="temperature-description">
                 <p> - </p>
             </div>
+            
+            <div class="datetime">
+                <p id="current-date">-</p>
+                <p id="current-time">-</p>
+            </div>
+            
             <div class="location">
                 <p>-</p>
             </div>
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <p class="detail-value" id="humidity-value">-</p>
+                    <p class="detail-label">Humidity</p>
+                </div>
+                <div class="detail-item">
+                    <p class="detail-value" id="wind-speed-value">-</p>
+                    <p class="detail-label">Wind Speed</p>
+                </div>
+            </div>
+            
         </div>
-    </div>
-    
-    <script src="app.js"></script>
-</body>
+    </div> 
+    <script src="app.js"></script></body>
 </html>
-
-
